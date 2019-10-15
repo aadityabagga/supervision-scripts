@@ -18,9 +18,7 @@ install: all
 	for doc in FEATURES.md TROUBLESHOOTING.md; do \
 		$(INSTALL) -D -m 0644 doc/$$doc "$(DESTDIR)$(DOCDIR)/$$doc"; \
 	done
-	for dir in svcdef/* svcdef/.*; do \
-		cp -Rav "$$dir" "$(DESTDIR)$(SRVDIR)/"; \
-	done
+	cp -Ra "svcdef" "$(DESTDIR)/etc/"; \
 
 uninstall:
 	rm -r $(DESTDIR)$(DOCDIR)
