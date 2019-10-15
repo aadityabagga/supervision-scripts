@@ -13,7 +13,7 @@ Prior to May 2016, the project was aimed at providing run scripts that work with
 
 Another side goal is to provide an easy way for existing distribution and package maintainers to create run scripts for daemons that fit their environment.  This means less time working on "glue scripts" to support supervision, and more time spent working on the daemon to be supervised.
 
-If you are new to process supervision, you may wish to read up on this suprisingly simple and easily supported idea.  Additionally, a(n incomplete) comparison of supervision frameworks, and their features, [can be found here](https://bitbucket.org/avery_payne/supervision-scripts/wiki/Comparison).
+If you are new to process supervision, you may wish to read up on this suprisingly simple and easily supported idea.  Additionally, a(n incomplete) comparison of supervision frameworks, and their features, [can be found here](https://github.com/apayne/supervision-scripts/blob/master/Comparison.md).
 
 
 ## Project Goals #
@@ -40,9 +40,5 @@ If you are new to process supervision, you may wish to read up on this suprising
 * Test for and support daemotools, freedt, and daemontools-encore.
 
 ## Wish List #
-
-* Look at the possibility of supporting perp.
-
-* Look at the possibility of supporting nosh.
 
 * Look at the possibility of a support tool that would read systemd unit files and write ./run files as a result.
