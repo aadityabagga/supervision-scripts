@@ -19,7 +19,7 @@ install: all
 		$(INSTALL) -D -m 0644 doc/$$doc "$(DESTDIR)$(DOCDIR)/$$doc"; \
 	done
 	for dir in svcdef/* svcdef/.[!.]*; do \
-		cp -Rav "$$dir" "$(DESTDIR)$(SRVDIR)/"; \
+		cp -Ra "$$dir" "$(DESTDIR)$(SRVDIR)/"; \
 	done
 
 uninstall:
