@@ -1,4 +1,4 @@
-/test/
 *.xz
 *.gz
 *~
+/test/
